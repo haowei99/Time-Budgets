@@ -1,11 +1,12 @@
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <head>
 	<title>Registration system PHP and MySQL</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="background-image: url(https://wallpapers.walldevil.com/wallpapers/a45/preview/night-day-silhouette-moon-sun-sky-tree-owl-boy.jpg)">
+<body class = "img-responsive" style="background-image: url(https://wallpapers.walldevil.com/wallpapers/a45/preview/night-day-silhouette-moon-sun-sky-tree-owl-boy.jpg)">
 
 	<div class="header" style="background-color: #9b9999">
 		<h2>Login</h2>
