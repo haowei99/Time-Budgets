@@ -5,7 +5,7 @@
 	<title>Registration system PHP and MySQL</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body  style="background-image: url(https://wallpapers.walldevil.com/wallpapers/a45/preview/night-day-silhouette-moon-sun-sky-tree-owl-boy.jpg)">
 	<div class="header" style="background-color: #9b9999">
 		<h2>Register</h2>
 	</div>
