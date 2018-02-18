@@ -6,11 +6,17 @@ h1 {
   margin: 0;
 }
 .real{
-  background-color: #00E2C5;
-  color: white;
-
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
+.back{
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/59/11/1557a3f270010af.jpg);
+}
 h2 {
   text-align: center;
   font-family: 'arial';
