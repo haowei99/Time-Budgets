@@ -27,6 +27,16 @@ form, .content {
 	text-align: left;
 	margin: 3px;
 }
+html
+	{
+	background-image: url(https://wallpapers.walldevil.com/wallpapers/a45/preview/night-day-silhouette-moon-sun-sky-tree-owl-boy.jpg);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-size: cover;
+
+}
 .input-group input {
 	height: 30px;
 	width: 93%;
