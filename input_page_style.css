@@ -1,0 +1,14 @@
+h1.title{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  font-family: 'arial';
+  font-size: 18px;
+}
+form{
+  text-align: center;
+}
+#instructions {
+  opacity: 80%;
+}
