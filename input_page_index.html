@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
   <head>
   	<title>Time-Budget</title>
     <link
@@ -7,28 +10,53 @@
   </head>
 
   <body>
-    <h1>Time-Budget</h1>
+    <h1 class="real">Time-Budget</h1>
     <h2 id ="instructions">Today's activities</h2>
     <form target="_self" method="post"> <!-- action="/action_page.php" -->
-      <input type="text" name="group1" placeholder="Activity">
-      <input type="number" name="group1" placeholder="Hours"> <br>
-      <input type="radio" name="group1" value="Work"> Work <br>
-      <input type="radio" name="group1" value="Extracurriculars"> Extracurriculars <br>
-      <input type="radio" name="group1" value="Leisuire"> Leisuire <br>
+      <div class = "row">
+        <div class="col-md-offset-4 col-md-1">
+          <input type="text" class="input" name="group1" placeholder="Activity">
+        </div>
+        <div class="col-md-1 input">
+          <input type="number" max = 24 min = 0 class="input" name="group1" placeholder="Hours"> 
+        </div>
+        <div class="col-md-1">
+          <input type="radio" name="group1" value="Work"> Work <br>        
+          <input type="radio" name="group1" value="Extracurriculars"> Extracurriculars <br>
+          <input type="radio" name="group1" value="Leisuire"> Leisuire <br>
+        </div>
+      </div>
       <br>
-      <input type="text" name="group2" placeholder="Activity">
-      <input type="number" name="group2" placeholder="Hours"> <br>
-      <input type="radio" name="group2" value="Work"> Work <br>
-      <input type="radio" name="group2" value="Extracurriculars"> Extracurriculars <br>
-      <input type="radio" name="group2" value="Leisuire"> Leisuire <br>
+      <div class = "row">
+        <div class="col-md-offset-4 col-md-1">
+          <input type="text" class="input" name="group2" placeholder="Activity">
+        </div>
+        <div class="col-md-1 input">
+          <input type="number" max = 24 min = 0 class="input" name="group2" placeholder="Hours"> 
+        </div>
+        <div class="col-md-1">
+          <input type="radio" name="group2" value="Work"> Work <br>        
+          <input type="radio" name="group2" value="Extracurriculars"> Extracurriculars <br>
+          <input type="radio" name="group2" value="Leisuire"> Leisuire <br>
+        </div>
+      </div>
       <br>
-      <input type="text" name="group3" placeholder="Activity">
-      <input type="number" name="group3" placeholder="Hours"> <br>
-      <input type="radio" name="group3" value="Work"> Work <br>
-      <input type="radio" name="group3" value="Extracurriculars"> Extracurriculars <br>
-      <input type="radio" name="group3" value="Leisuire"> Leisuire <br>
+      <div class = "row">
+        <div class="col-md-offset-4 col-md-1">
+          <input type="text" class="input" name="group3" placeholder="Activity">
+        </div>
+        <div class="col-md-1 input">
+          <input type="number" max = 24 min = 0 class="input" name="group3" placeholder="Hours"> 
+        </div>
+        <div class="col-md-1">
+          <input type="radio" name="group3" value="Work"> Work <br>        
+          <input type="radio" name="group3" value="Extracurriculars"> Extracurriculars <br>
+          <input type="radio" name="group3" value="Leisuire"> Leisuire <br>
+        </div>
+      </div>
       <br>
       <input type="submit" value = "Submit">
     </form>
   </body>
 </html>
+

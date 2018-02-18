@@ -5,6 +5,12 @@ h1 {
   margin-top: 30px;
   margin: 0;
 }
+.real{
+  background-color: #00E2C5;
+  color: white;
+
+}
+
 h2 {
   text-align: center;
   font-family: 'arial';
@@ -15,4 +21,12 @@ form{
 }
 #instructions {
   opacity: 80%;
+}
+
+.same-line {
+  display: inline-block;
+}
+
+.input {
+  height: 85px;
 }
